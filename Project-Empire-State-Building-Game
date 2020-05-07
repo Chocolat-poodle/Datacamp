@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 0階をスタート地点とする。サイコロを振って出た目の数によって次の階数分のぼる。
 ・1,2 => 1段下がる（0未満にはならない）
@@ -51,3 +52,6 @@ sns.distplot(ends, bins = 20, kde = False)
 n = np.count_nonzero(ends >= 60)
 odds = n / len(ends) * 100
 print('{:.3}%'.format(odds))
+=======
+Project 1
+>>>>>>> 504334d969e3ab21eb769e21e73e9df2a6bdd20c
